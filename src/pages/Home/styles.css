@@ -1,0 +1,83 @@
+.homePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.homeScoreContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.scoreContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+}
+
+.scoreInput {
+  width: 100%;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-size: 80px;
+  color: #4B4B4B;
+}
+
+.scoreInput::-webkit-outer-spin-button,
+.scoreInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.scoreInput[type=number] {
+  -moz-appearance: textfield;
+}
+.scoreButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.scoreButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 35px;
+  outline: none;
+  border: 1px solid #3a8622;
+  background-color: #4FBD2E;
+  border-radius: 4px;
+  font-size: 24px;
+  text-align: center;
+  transition: all ease 200ms;
+}
+
+.scoreButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.scoreButton:active {
+  transform: scale(1);
+}
+
+.scoreTeam {
+  margin-top: 24px;
+  font-size: 32px;
+  color: #4B4B4B;
+}
+
+.homeVersusText {
+  font-size: 24px;
+  color: #4B4B4B;
+}
