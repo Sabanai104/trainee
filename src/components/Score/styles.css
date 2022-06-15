@@ -1,0 +1,39 @@
+.scoreContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+}
+
+.scoreInput {
+  width: 100%;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-size: 80px;
+  color: #4B4B4B;
+}
+
+.scoreInput::-webkit-outer-spin-button,
+.scoreInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.scoreInput[type=number] {
+  -moz-appearance: textfield;
+}
+.scoreButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.scoreTeam {
+  margin-top: 24px;
+  font-size: 32px;
+  color: #4B4B4B;
+}

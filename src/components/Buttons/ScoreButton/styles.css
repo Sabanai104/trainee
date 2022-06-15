@@ -1,0 +1,23 @@
+.scoreButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 35px;
+  outline: none;
+  border: 1px solid #3a8622;
+  background-color: #4FBD2E;
+  border-radius: 4px;
+  font-size: 24px;
+  text-align: center;
+  transition: all ease 200ms;
+}
+
+.scoreButton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.scoreButton:active {
+  transform: scale(1);
+}
